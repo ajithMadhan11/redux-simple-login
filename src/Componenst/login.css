@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    margin: 0;
+    
+    font-family: 'Nunito', sans-serif;
+    margin-top: 20px;
+    background-color: #ececec;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+   
+}
+.form_items{
+    width: 350px;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    
+}
+.form_items:focus{
+    border: none;
+}
+.submit_btn{
+    background-color: royalblue;
+    border: none;
+    width: 365px;
+    height: 40px;
+    color: #fff;
+    cursor:pointer;
+  
+}
+.logout_name span{
+    color: royalblue;
+}
+.logout_btn{
+    background-color: royalblue;
+    border: none;
+    width: 365px;
+    height: 40px;
+    color: #fff;
+    cursor:pointer;
+}
